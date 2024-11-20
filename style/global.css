@@ -15,8 +15,8 @@
     font-variant-caps: petite-caps;
 }
 section {
-    height: 200vh;
-    background-color:var(--bg-green);
+    height: 150vh;
+    /* background-color:var(--bg-green); */
     position: relative;
 }
 .btn {
