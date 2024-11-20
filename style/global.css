@@ -14,6 +14,48 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-variant-caps: petite-caps;
 }
+.btn {
+    margin: 10%;
+}
+button a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    border: 2px solid var(--bg-dark-gray);
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  button a {
+    position: relative;
+    z-index: 2;
+    color: var(--font-black);
+  }
+  
+  button :after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background:var(--bg-green);
+    background: rgba(43, 44, 43, 0.2);
+    color: var(--font-black);
+    transition: all .35s;
+  }
+  
+  button a:hover{
+    color: var(--font-black);
+  }
+  
+  button a:hover:after{
+    width: 100%;
+  }
 
 /* ---  NAVBAR  --- */
 
@@ -109,4 +151,8 @@ section {
     margin: 15%;
     font-size: 1.5rem;
 }
+.content a {
+    text-decoration: none;
+}
+
 
