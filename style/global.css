@@ -106,13 +106,13 @@ section {
     position: relative;
 }
 .container-1 {
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     background-color: var(--bg-off-white);
     position: relative;
 }
 .container-2 {
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     background-color: var(--bg-green);
     position: relative;
@@ -120,20 +120,15 @@ section {
 .hero-div {
     display: flex;
     justify-content: center;
-    margin: 18%;
+    margin: 15%;
 }
-.hero-div img {
+.hero-img {
     width: 25%;
     background-repeat: no-repeat;
     position: fixed;
 }
 /* after scroll trigger positirelative and width 80% */
 
-.container-2 {
-    height: 185vh;
-    width: 100%;
-    position: relative;
-}
 .content {
     display: flow;
     margin: 5%;
