@@ -198,6 +198,6 @@ a:hover {
     color: var(--font-black);
     
 }
-a:hover {
+.services a:hover {
     letter-spacing: 0.2rem; 
 }
