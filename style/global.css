@@ -92,4 +92,21 @@ section {
     width: 100%;
     position: relative;
 }
+.content {
+    display: flow;
+    margin: 5%;
+    color: var(--font-black);
+}
+.content h1 {
+    margin: 5%;
+    margin-top: 20%;
+}
+.content h2 {
+    margin: 5%;
+    font-size: 2rem;
+}
+.content p {
+    margin: 15%;
+    font-size: 1.5rem;
+}
 
