@@ -10,4 +10,31 @@
 .service-section {
     background-color: var(--bg-dark-gray);
     height: 300vh;
+    color: var(--font-white);
+}
+.main-service-div {
+    display: flex;
+    justify-content: space-around;
+    text-align: end;
+}
+.service-content {
+    text-align: left;
+    margin: 5%;
+    margin-left: 15%;
+}
+.service-content h3 {
+
+}
+
+
+
+
+
+.service-content button {
+    margin: 0%;
+}
+.service-page-img img {
+    width: 30%;
+    margin: 5%;
+    margin-right: 15%;
 }
