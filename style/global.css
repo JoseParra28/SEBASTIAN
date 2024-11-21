@@ -14,6 +14,13 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-variant-caps: petite-caps;
 }
+li {
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 .hero-section {
     height: 150vh;
     /* background-color:var(--bg-green); */
@@ -218,9 +225,29 @@ footer{
     bottom: -219%;
     background-color: var(--bg-dark-gray);
     color: var(--font-white);
+   
 
+}
+.fooret-div{
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-between;
+    margin: 2%;
 }
 .footer-links {
     display: flex;
-    
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+}
+.social-links {
+    margin-right: 10%;
+}
+.social-media li {
+    font-size: 1.5rem;
+    color: var(--font-white);
+}
+.social-media a {
+    font-size: 1.5rem;
+    color: var(--font-white);
 }
