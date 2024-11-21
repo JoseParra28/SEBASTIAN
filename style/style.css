@@ -1,4 +1,13 @@
-/* .main-div-2 {
-    height: 100vh;
-    background-color: red;
-} */
+:root {
+    --bg-green: #1b6b37;
+    --bg-off-white: #f5f5f3;
+    --bg-dark-gray:#1e1e1e;
+    --font-white:#ffffff;
+    --font-black: #000;
+}
+/* -- SERVICES PAGE  -- */
+
+.service-section {
+    background-color: var(--bg-dark-gray);
+    height: 300vh;
+}
