@@ -9,7 +9,7 @@
 
 .service-section {
     background-color: var(--bg-off-white);
-    height: 300vh;
+    height: 100vh;
     color: var(--font-black);
 }
 .main-service-div {
