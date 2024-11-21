@@ -8,22 +8,32 @@
 /* -- SERVICES PAGE  -- */
 
 .service-section {
-    background-color: var(--bg-dark-gray);
+    background-color: var(--bg-off-white);
     height: 300vh;
-    color: var(--font-white);
+    color: var(--font-black);
 }
 .main-service-div {
     display: flex;
     justify-content: space-around;
     text-align: end;
+    position: relative;
 }
 .service-content {
     text-align: left;
     margin: 5%;
-    margin-left: 15%;
+    margin-left: 10%;
+    justify-content: space-between;
 }
 .service-content h3 {
-
+    font-size: 2rem;
+    margin-bottom: 20%;
+}
+.service-content li {
+    margin: 2%;
+    list-style:disc;
+}
+.service-content p{
+    margin: 3%;
 }
 
 
@@ -32,6 +42,9 @@
 
 .service-content button {
     margin: 0%;
+}
+.service-page-img {
+    width: 50%;
 }
 .service-page-img img {
     width: 30%;
