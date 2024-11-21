@@ -14,9 +14,13 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-variant-caps: petite-caps;
 }
-section {
+.hero-section {
     height: 150vh;
     /* background-color:var(--bg-green); */
+    position: relative;
+}
+.service-section {
+    height: 10vh;
     position: relative;
 }
 .btn {
@@ -200,4 +204,11 @@ a:hover {
 }
 .services a:hover {
     letter-spacing: 0.2rem; 
+}
+
+/*  ---- FOOTER ----- */
+
+footer{
+    height: 100vh;
+    background-color: rebeccapurple;
 }
