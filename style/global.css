@@ -228,6 +228,26 @@ footer{
    
 
 }
+.footer-form h1 {
+    margin: 1%;
+}
+.footer-form p {
+    margin: 1%;
+}
+.footer-form input {
+    margin: 1%;
+}
+.input-div {
+    display: flex;
+    justify-content:flex-start;
+    margin: 1%;
+}
+.input-div input {
+    height: 15px;
+}
+.input-div li{
+    margin-left: 2%;
+}
 .fooret-div{
     display: flex;
     /* text-align: center; */
