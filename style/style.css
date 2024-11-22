@@ -7,11 +7,6 @@
 }
 /* -- SERVICES PAGE  -- */
 
-.service-section {
-    background-color: var(--bg-off-white);
-    height: 100vh;
-    color: var(--font-black);
-}
 .main-service-div {
     display: flex;
     justify-content: space-around;

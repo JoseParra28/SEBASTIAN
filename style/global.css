@@ -26,11 +26,8 @@ a{
     /* background-color:var(--bg-green); */
     position: relative;
 }
-section {
-    position: absolute;
-}
 .service-section {
-    height: 190vh;
+    height: 277vh;
     position: relative;
 }
 .btn {
