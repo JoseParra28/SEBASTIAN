@@ -30,6 +30,10 @@ a{
     height: 277vh;
     position: relative;
 }
+.gallery-section {
+    height: 100vh;
+    position: relative;
+}
 .btn {
     margin-left: 16%;
 }
