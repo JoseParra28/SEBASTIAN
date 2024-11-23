@@ -34,6 +34,10 @@ a{
     height: 130vh;
     position: relative;
 }
+.info-section {
+    height: 100vh;
+    position: relative;
+}
 .btn {
     margin-left: 16%;
 }
