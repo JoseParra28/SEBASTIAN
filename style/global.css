@@ -37,6 +37,8 @@ a{
 .info-section {
     height: 100vh;
     position: relative;
+    background-color: var(--bg-dark-gray);
+    color: var(--font-white);
 }
 .btn {
     margin-left: 16%;
@@ -182,6 +184,7 @@ a:hover {
     background-color: var(--bg-green);
     position: relative;
     overflow: scroll;
+    scrollbar-color: var(--bg-green);
 }
 .service-container-2 {
     height: 100vh;
