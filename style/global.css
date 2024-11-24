@@ -130,6 +130,8 @@ a:hover {
 .dropdown {
     width: 30%;
     height: 60%;
+    color: black;
+    position: absolute;
     background-color: red;
 }
 
