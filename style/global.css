@@ -110,14 +110,27 @@ nav {
 a:hover {
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: var(--bg-green);
-    color: var(--bg-green);
+    text-decoration-color: var(--font-white);
+    color: var(--bg-off-white);
     /* letter-spacing: 0.2rem; */
    
+}
+#current {
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: var(--font-white);
+    color: var(--bg-off-white);
 }
 .logo-div {
     cursor: pointer;
     color: var(--font-white);
+}
+
+/* --- DROPDOWN MENU -- */
+.dropdown {
+    width: 30%;
+    height: 60%;
+    background-color: red;
 }
 
 /* ---  MAIN CONTAINERS  --- */
