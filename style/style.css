@@ -71,6 +71,20 @@
 }
 
 /* --- INFO --- */
+
+.main-info-div{
+    display: flex;
+    position: relative;
+}
+
+.info-img {
+    justify-content: center;
+    text-align: center;
+}
+.info-img img {
+    width: 30%;
+}
+
 form {
     position: relative;
     padding: 20px;
