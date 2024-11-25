@@ -129,8 +129,9 @@ a:hover {
 /* --- DROPDOWN MENU -- */
 .dropdown {
     width: 30%;
-    height: 60%;
+    height: 10vh;
     color: black;
+    z-index: 3;
     position: relative;
     background-color: red;
 }
