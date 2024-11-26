@@ -163,9 +163,9 @@ margin: 10%;
 font-size: 1.2rem;
 }
 
-/* .hide {
+.hidden {
     display: none;
-} */
+}
 /* @keyframes hide-menu {
     from {
         transform: translateX(0%);

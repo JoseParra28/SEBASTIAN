@@ -15,12 +15,13 @@ window.addEventListener("scroll", () => {
 })
 
 // Dropdown
-let showMenu = document.querySelector(".drop");
-let hide = document.querySelector(".hide");
+let showMenuBtn = document.querySelector(".drop");
+let showMenu = document.querySelector(".dropdown");
+let hideClass = document.querySelector(".hidden");
 
-showMenu.addEventListener("click", function(){
-
-    hide.classList.remove(".hide")
+showMenuBtn.addEventListener("click", function(){
+    showMenu.classList.add(".dropdown")
+    hideClass.classList.remove(".hidden")
 })
 
 // Info 
