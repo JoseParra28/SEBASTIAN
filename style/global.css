@@ -137,9 +137,10 @@ a:hover {
 }
 .dropdown {
     width: 30%;
-    height: 50vh;
+    height: 55vh;
     color: black;
     z-index: 3;
+    top: 1%;
     position: absolute;
     backdrop-filter: blur(6px);
     background: rgba(74, 76, 77, 0.378);
@@ -162,8 +163,6 @@ a:hover {
 margin: 10%;
 font-size: 1.2rem;
 }
-
-
 .hidden {
     display: none;
 }

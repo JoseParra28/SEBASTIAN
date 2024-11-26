@@ -32,7 +32,6 @@ closeMenuBtn.addEventListener("click", function(){
 })
 
 
-
 // Info 
 
 const form = document.querySelector('form');
@@ -70,3 +69,4 @@ const form = document.querySelector('form');
                 resetBorder(element, '#555');
             });
         });
+
