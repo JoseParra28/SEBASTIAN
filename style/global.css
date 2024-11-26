@@ -127,14 +127,49 @@ a:hover {
 }
 
 /* --- DROPDOWN MENU -- */
+@keyframes show {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
 .dropdown {
     width: 30%;
-    height: 10vh;
+    height: 50vh;
     color: black;
     z-index: 3;
-    position: relative;
+    position: absolute;
     background-color: red;
+    animation: show 0.2s linear;
 }
+.dropdown li {
+    margin: 5%;
+    padding: 3%;
+    background-color: #000;
+}
+.close-div {
+    display: flex;
+    justify-content: space-between;
+}
+.drop-logo  {
+margin: 10%;
+font-size: 1.2rem;
+}
+
+
+/* @keyframes hide {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-30%);
+    }
+}
+.hide {
+    animation: hide 0.2s linear;
+} */
 
 /* ---  MAIN CONTAINERS  --- */
 .main-div {
