@@ -15,14 +15,23 @@ window.addEventListener("scroll", () => {
 })
 
 // Dropdown
+let showMenu = document.querySelector(".hidden");
 let showMenuBtn = document.querySelector(".drop");
-let showMenu = document.querySelector(".dropdown");
-let hideClass = document.querySelector(".hidden");
+let closeMenuBtn = document.querySelector(".close-menu")
 
 showMenuBtn.addEventListener("click", function(){
-    showMenu.classList.add(".dropdown")
-    hideClass.classList.remove(".hidden")
+    let removeClass = document.querySelector(".hidden");
+    removeClass.classList.remove("hidden")
+    showMenu.classList.add("dropdown")
 })
+
+closeMenuBtn.addEventListener("click", function(){
+    let removeClass = document.querySelector(".dropdown");
+    showMenu.classList.remove("dropdown")
+    removeClass.classList.add("hidden")
+})
+
+
 
 // Info 
 
@@ -46,7 +55,7 @@ const form = document.querySelector('form');
         });
 
         form.addEventListener('mouseleave', () => {
-            resetBorder(form, 'white');
+            resetBorder(form, 'black');
         });
 
         formElements.forEach(element => {

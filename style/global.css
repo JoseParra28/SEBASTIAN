@@ -163,20 +163,11 @@ margin: 10%;
 font-size: 1.2rem;
 }
 
+
 .hidden {
     display: none;
 }
-/* @keyframes hide-menu {
-    from {
-        transform: translateX(0%);
-    }
-    to {
-        transform: translateX(-30%);
-    }
-} */
-.hide-menu {
-    animation: hide 0.2s linear;
-}
+
 
 /* ---  MAIN CONTAINERS  --- */
 .main-div {
