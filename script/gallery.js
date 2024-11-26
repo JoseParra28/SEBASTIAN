@@ -1,7 +1,7 @@
 // Gallery 
 
-const gallery = document.querySelectorAll(".gallery")
+const gallery = document.querySelectorAll("img")
 
 for(i = 0; i < gallery.length; i++){
-    console.log(i) 
+    console.log(gallery[i]) 
 }
