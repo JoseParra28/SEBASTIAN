@@ -141,13 +141,18 @@ a:hover {
     color: black;
     z-index: 3;
     position: absolute;
-    background-color: red;
+    backdrop-filter: blur(6px);
+    background: rgba(74, 76, 77, 0.378);
     animation: show 0.2s linear;
 }
 .dropdown li {
     margin: 5%;
     padding: 3%;
-    background-color: #000;
+    color: var(--font-white);
+    background: rgba(11, 11, 11, 0.378);
+}
+.dropdown a {
+    color: var(--font-white);
 }
 .close-div {
     display: flex;
@@ -158,18 +163,20 @@ margin: 10%;
 font-size: 1.2rem;
 }
 
-
-/* @keyframes hide {
+/* .hide {
+    display: none;
+} */
+/* @keyframes hide-menu {
     from {
         transform: translateX(0%);
     }
     to {
         transform: translateX(-30%);
     }
-}
-.hide {
-    animation: hide 0.2s linear;
 } */
+.hide-menu {
+    animation: hide 0.2s linear;
+}
 
 /* ---  MAIN CONTAINERS  --- */
 .main-div {

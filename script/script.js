@@ -14,6 +14,15 @@ window.addEventListener("scroll", () => {
     }
 })
 
+// Dropdown
+let showMenu = document.querySelector(".drop");
+let hide = document.querySelector(".hide");
+
+showMenu.addEventListener("click", function(){
+
+    hide.classList.remove(".hide")
+})
+
 // Info 
 
 const form = document.querySelector('form');
