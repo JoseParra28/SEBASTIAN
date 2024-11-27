@@ -15,6 +15,7 @@ window.addEventListener("scroll", () => {
 })
 
 // Dropdown
+
 let showMenu = document.querySelector(".hidden");
 let showMenuBtn = document.querySelector(".drop");
 let closeMenuBtn = document.querySelector(".close-menu")
