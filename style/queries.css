@@ -1,0 +1,6 @@
+/* Gallery  */
+@media (max-width: 900px){
+    .popup-img img {
+        width: 95%;
+    }
+}
