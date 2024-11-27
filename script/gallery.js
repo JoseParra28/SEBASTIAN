@@ -12,10 +12,9 @@ for (i = 0; i < galleryImg.length; i++){
         let changeImg = this.alt
         switch (changeImg) {
             case "img-1":
-                let image = document.querySelectorAll(".img")
+                let image = document.querySelectorAll('image')
                 image.src = '/assets/image-asset (5).jpeg'
-                popUp.style.background = '/assets/image-asset (5).jpeg'
-                popUp.classList.remove("hidden")
+                this.popUp.classList.remove("hidden")
                 console.log(this)
                 break;
         
