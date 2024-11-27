@@ -12,10 +12,18 @@ for (i = 0; i < galleryImg.length; i++){
         let changeImg = this.alt
         switch (changeImg) {
             case "img-1":
-                let image = document.querySelectorAll('image')
+
+                let image = document.createElement('img')
                 image.src = '/assets/image-asset (5).jpeg'
-                this.popUp.classList.remove("hidden")
-                console.log(this)
+
+                const addimage  = document.getElementsByClassName('popup-img')
+                addimage[0].appendChild(image)
+                popUp.classList.remove("hidden")
+
+                break;
+                case "img-2":
+                
+
                 break;
         
             default:
