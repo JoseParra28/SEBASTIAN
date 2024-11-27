@@ -10,6 +10,7 @@ const popUp = document.querySelector(".popup-img")
 for (i = 0; i < galleryImg.length; i++){
     galleryImg[i].addEventListener("click", function(){
         let changeImg = this.alt
+        console.log(changeImg)
         switch (changeImg) {
             case "img-1":
 
@@ -19,12 +20,12 @@ for (i = 0; i < galleryImg.length; i++){
                 const addimage  = document.getElementsByClassName('popup-img')
                 addimage[0].appendChild(image)
                 popUp.classList.remove("hidden")
-
                 break;
+
                 case "img-2":
                 
-
                 break;
+                
         
             default:
                 break;
