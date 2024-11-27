@@ -1,7 +1,9 @@
 // Gallery 
 
-const gallery = document.querySelectorAll("img")
+const gallery = document.querySelector(".gallery")
+const galleryImg = document.querySelectorAll(".img")
+const closePopUp = document.querySelector(".close-popup")
+const popUp = document.querySelector(".popup-img")
 
-for(i = 0; i < gallery.length; i++){
-    console.log(gallery[i]) 
-}
+console.log(galleryImg)
+

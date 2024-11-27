@@ -79,8 +79,10 @@
     height: 100%;
     z-index: 4;
     display: grid;
-    display: none;
     
+}
+.hidden {
+    display: none;
 }
 .popup-img span {
     position: absolute;
