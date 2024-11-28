@@ -60,7 +60,6 @@
     animation-range: entry 0% cover 40%;
 }
 .gallery {
-  
     clear: both;
     line-height: 0%;
     column-count: 5;
@@ -100,7 +99,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border:  0.1px solid white;
-    width: 1150px;
+    width: 800px;
+    height: 100%;
     object-fit: cover;
 }
 

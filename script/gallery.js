@@ -10,20 +10,22 @@ const popUp = document.querySelector(".popup-img")
 for (i = 0; i < galleryImg.length; i++){
     galleryImg[i].addEventListener("click", function(){
         let changeImg = this.alt
-        console.log(changeImg)
+
+        let image = document.createElement('img')
+        const addimage  = document.getElementsByClassName('popup-img')
+        console.log(this)
         switch (changeImg) {
             case "img-1":
-
-                let image = document.createElement('img')
                 image.src = '/assets/image-asset (5).jpeg'
-
-                const addimage  = document.getElementsByClassName('popup-img')
                 addimage[0].appendChild(image)
                 popUp.classList.remove("hidden")
                 break;
 
                 case "img-2":
-                
+                image.src = '/assets/image-asset-1.png'
+                addimage[0].appendChild(image)
+                popUp.classList.remove("hidden")
+                console.log("You clicked 2")
                 break;
                 
         
