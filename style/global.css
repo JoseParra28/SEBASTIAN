@@ -194,7 +194,8 @@ font-size: 1.2rem;
 .container-2 {
     height: 150vh;
     width: 100%;
-    background-color: var(--bg-green);
+    /* background-color: var(--bg-green); */
+    background: rgba(34, 69, 33, 0.8);
     position: relative;
 }
 .hero-div {
