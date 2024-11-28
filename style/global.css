@@ -40,6 +40,12 @@ a{
     background-color: var(--bg-dark-gray);
     color: var(--font-white);
 }
+.sc-section {
+    height: 100vh;
+    position: relative;
+    background-color: var(--bg-dark-gray);
+    color: var(--font-white);
+}
 .btn {
     margin-left: 16%;
 }
@@ -123,6 +129,11 @@ a:hover {
 }
 .logo-div {
     cursor: pointer;
+    color: var(--font-white);
+}
+#show-menu {
+    font-size: 2rem;
+    font-weight: 500;
     color: var(--font-white);
 }
 

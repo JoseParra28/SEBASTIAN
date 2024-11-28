@@ -1,4 +1,7 @@
 /* Gallery  */
+
+/* Mobile and tablet */
+
 @media (max-width: 900px){
     .popup-img img {
         width: 80%;
@@ -8,5 +11,19 @@
 @media (max-width: 900px){
     .gallery  {
         column-count: 2;
+    }
+}
+
+@media (min-width: 900px){
+    #show-menu {
+        display: none;
+    }
+}
+@media (max-width: 900px){
+    nav li{
+        display: none;
+    }
+    #show-menu {
+        display: block;
     }
 }
