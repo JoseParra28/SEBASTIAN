@@ -177,3 +177,11 @@ input[type="submit"] {
     background-color: var(--bg-dark-gray);
     cursor: pointer;
 }
+
+/* SCHEDULE */
+.sc-content-div {
+    width: 20%;
+    height: 40%;
+    background-color: #814e4e;
+    position: absolute;
+}
