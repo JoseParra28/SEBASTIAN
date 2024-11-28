@@ -1,6 +1,12 @@
 /* Gallery  */
 @media (max-width: 900px){
     .popup-img img {
-        width: 95%;
+        width: 80%;
+        height: 50%;
+    }
+}
+@media (max-width: 900px){
+    .gallery  {
+        column-count: 2;
     }
 }

@@ -99,7 +99,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border:  0.1px solid white;
-    width: 800px;
+    width: 850px;
     height: 100%;
     object-fit: cover;
 }
