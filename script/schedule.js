@@ -2,7 +2,7 @@ const scBtnContent = ["Standard Package", "Deluxe Package", "Professional Packag
 const scBtns = document.querySelectorAll(".sc-btn");
 
 for(let i = 0; i < scBtnContent.length; i++){
-    scBtns.addEventListener("click", function (){
+    document.querySelectorAll('button')[i].addEventListener("click", function(){
         console.log(this)
     })
 }
