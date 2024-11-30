@@ -179,9 +179,20 @@ input[type="submit"] {
 }
 
 /* SCHEDULE */
-.tracker-1 {
+.tracker-divs {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    background-color: #000;
+}
+.tracker-divs div {
+    width: 80px;
+    justify-content: center;
+    text-align: center;
+}
+.tracker-1 , .tracker-4 {
     background-color: #1b6b37;
-    position: absolute;
+  
 }
 .sc-content-div {
     width: 20%;
