@@ -209,6 +209,11 @@ font-size: 1.2rem;
     background-repeat: no-repeat;
     position: fixed;
 }
+.hero-parallax {
+    font-size: 10rem;
+    position: absolute;
+    top: 15%;
+}
 /* after scroll trigger positirelative and width 80% */
 
 .content {
