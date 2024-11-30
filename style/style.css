@@ -182,7 +182,6 @@ input[type="submit"] {
 .tracker-divs {
     display: flex;
     justify-content: space-around;
-    margin: 5px;
     background-color: #000;
 }
 .tracker-divs div {
@@ -190,14 +189,17 @@ input[type="submit"] {
     justify-content: center;
     text-align: center;
 }
-.tracker-1 , .tracker-4 {
+.tracker-1 , .tracker-3 {
     background-color: #1b6b37;
   
 }
+.choice-btns button {
+    display: flex;
+}
 .sc-content-div {
     width: 20%;
-    height: 40%;
-    background-color: #814e4e;
+    height: 60%;
+    background-color: #a19b9b;
     position: absolute;
 }
 .appointment-tracker {
