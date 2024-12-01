@@ -13,12 +13,9 @@ for(let i = 0; i < scBtnContent.length; i++){
                 let phaseThree = document.querySelector(".phase-2");
                 let phaseFour = document.querySelector(".phase-2");
 
+
                 let trackerOne = document.querySelector(".tracker-1 ")
                 let trackerTwo = document.querySelector(".tracker-2 ")
-
-                let getDate = document.querySelector(".date-field").value;
-                let getTime = document.querySelector(".time-field").value;
-                let getName = document.querySelector(".name-field").value;
 
                 phaseOne.classList.add("hidden")
                 phaseTwo.classList.remove("hidden")
@@ -27,10 +24,20 @@ for(let i = 0; i < scBtnContent.length; i++){
                 trackerTwo.classList.add("current")
 
                 submitBtn.addEventListener("click", function (){
+
+                    let getDate = document.querySelector(".date-field").value;
+                    let getTime = document.querySelector(".time-field").value;
+                    let getName = document.querySelector(".name-field").value;
+
+                    let nameDisplay = document.querySelector(".cust-name")
+                    let surnameDisplay = document.querySelector(".cust-name")
+                    // let nameDisplay = document.querySelector(".cust-name")
+                    // let nameDisplay = document.querySelector(".cust-name")
+
                     console.log(`you have selected ${currentBtn} `)
-                    // console.log(getDate)
-                    // console.log(getTime)
-                    console.log(getName.value)
+                    console.log(getDate)
+                    console.log(getTime)
+                    console.log(getName)
                 })
                 
                 break;
