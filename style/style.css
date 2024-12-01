@@ -193,9 +193,54 @@ input[type="submit"] {
     background-color: #1b6b37;
   
 }
-.choice-btns button {
-    display: flex;
+/* Buttons */
+.choice-btns {
+    display: inline;
+    margin: 2%;
+    text-align: center;
+    justify-content: center;
 }
+button {
+    display: block;
+    margin: 2%;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid var(--bg-dark-gray);
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  button{
+    position: relative;
+    z-index: 2;
+    color: var(--font-black);
+  }
+  
+  button :after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background:var(--bg-green);
+    background: rgba(43, 44, 43, 0.2);
+    color: var(--font-black);
+    transition: all .35s;
+  }
+  
+  button:hover{
+    color: var(--font-black);
+  }
+  
+  button:hover:after{
+    width: 100%;
+  }
+  /* Buttons */
 .sc-content-div {
     width: 20%;
     height: 60%;
@@ -204,7 +249,8 @@ input[type="submit"] {
 }
 .appointment-tracker {
     top: 0%;
-    height: 10%;
+    line-height: 30px;
+    height: 7%;
     text-align: center;
     background-color: var(--bg-green);
 }
