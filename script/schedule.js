@@ -29,4 +29,9 @@ for(let i = 0; i < scBtnContent.length; i++){
     })
 }
 
+const getDate = document.querySelector("#date-field").value;
+const getTime = document.querySelector("#time-field").value;
+
+console.log(getDate)
+console.log(getTime)
     

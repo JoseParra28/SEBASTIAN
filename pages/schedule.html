@@ -44,6 +44,9 @@
                         <div class="appointment-tracker">
                             <h1 class="appointment-tracker-h1 ">Choose Appointment</h1>
                         </div>
+
+                         <!-- Phase 1 start -->
+
                         <div class="tracker-handeler hidden">
                         <div class="choice-btns ">
                             <div class="package">
@@ -76,13 +79,81 @@
                             </div>
                         </div>
                        </div>
+                       <!-- Phase 1 end -->
                        
                          <!-- Phase 2 start -->
-                         <div class="tracker-handeler ">
-                            <h2>hello</h2>
-                            <input type="date" name="" id="">
+                         <div class="tracker-handeler hidden">
+                            <fieldset>
+                                
+                            <label for="date">Date</label>
+                            <input type="date" min="2024-12-04" max="2025-01-30" name="date" id="date-field" value="2024-12-04" required>
+
+                            <label for="time">Time</label>
+                            <input type="time" name="time" id="time-field" value="02:30" required>
+
+                            <select id="reason" name="reason" required>
+                                <option value="" disabled selected>Select the reason for contact</option>
+                                <option value="issue">Package query</option>
+                                <option value="collaboration">Collaboration Query</option>
+                                <option value="help">Other query</option>
+                            </select>
+
+                            <input type="submit" value="Continue" id="submit-appo">
+
+                            </fieldset>
                             </div>
                             <!-- Phase 2 end -->
+
+                            <!-- Phase 3 start -->
+                         <div class="tracker-handeler hidden ">
+                            <fieldset>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+
+                            <label for="name">Surname:</label>
+                            <input type="text" id="surname" name="Surname" required>
+                
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <select id="reason" name="reason" required>
+                                <option value="" disabled selected>Returning customer</option>
+                                <option value="issue">Yes</option>
+                                <option value="issue">No</option>
+                                
+                            </select>
+
+                            <input type="submit" value="Continue" id="submit-appo">
+                            </fieldset> 
+                        
+                            </div>
+                            <!-- Phase 3 end -->
+
+                             <!-- Phase 4 start -->
+                         <div class="tracker-handeler ">
+                           <div class="confirmation">
+                            <h2 class="cust-name">Jose</h2>
+                            <h2 class="cust-surname">Parra</h2>
+                            <h3 class="cust-package">Standard Package</h3>
+                            <h3 class="cust-date">04/12/2024</h3>
+                            <h3 class="cust-time">04:40</h3>
+                           </div>
+                           <input type="submit" value="Confirm" id="submit-appo">
+                         </div>
+                            <!-- Phase 4 end -->
+
+                             <!-- Phase 4 start -->
+                         <div class="tracker-handeler hidden ">
+                            <div class="thank-you">
+                             <h3>Thank you for you time. This is a fictional website none of these packages are real <br>
+                                 Your details won't be saved and with be erased once you refresh the page.
+                              </h3>
+                         </div>
+                         
+                             </div>
+                             <!-- Phase 4 end -->
+
+                            
 
 
                         </div>
