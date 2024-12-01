@@ -179,6 +179,13 @@ input[type="submit"] {
 }
 
 /* SCHEDULE */
+
+
+.tracker-handeler {
+    color: var(--bg-dark-gray);
+
+}
+
 .tracker-divs {
     display: flex;
     justify-content: space-around;
@@ -194,8 +201,19 @@ input[type="submit"] {
     
   
 } */
+@keyframes transition {
+    from {
+        transform: translateX(-10%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
 .current {
     background-color: #4b4b4b;
+    animation: transition 0.3s linear;
 }
 /* Buttons */
 .choice-btns {
@@ -291,9 +309,9 @@ button {
     font-size: 0.9rem;
     color: #868585;
 }
-@keyframes show {
+@keyframes trans {
     from {
-        transform: translateX(+100%);
+        transform: translateX(+10%);
         opacity: 0;
     }
     to {
@@ -304,7 +322,7 @@ button {
 
 .tracker-handeler {
     color: var(--bg-dark-gray);
-    animation: show 0.2s linear;
+    animation: trans 0.3s linear;
 }
 
 fieldset {
