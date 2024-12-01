@@ -248,8 +248,9 @@ button {
 .sc-content-div {
     width: 30%;
     height: 65%;
-    background-color: var(--bg-off-white);
+    background-color: var(--bg-dark-gray);
     position: absolute;
+    
 }
 .appointment-tracker {
     top: 0%;
@@ -257,11 +258,12 @@ button {
     height: 7%;
     text-align: center;
     justify-content: center;
+    
 
 }
 .appointment-tracker h1 {
     margin: 10px;
-    color: var(--bg-dark-gray);
+    color: var(--bg-off-white);
 }
 .choice-btns {
     display: block;
@@ -340,5 +342,8 @@ input[type="submit"] {
 .confirmation {
     margin: 20px;
     justify-content: center;
-    background-color: #000;
+    color: var(--bg-off-white);
+}
+.confirmation h2, h3 {
+    margin: 4px;
 }
