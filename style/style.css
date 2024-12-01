@@ -182,16 +182,20 @@ input[type="submit"] {
 .tracker-divs {
     display: flex;
     justify-content: space-around;
-    background-color: #000;
+    background-color: #868585;
 }
 .tracker-divs div {
-    width: 80px;
+    width: 100%;
     justify-content: center;
     text-align: center;
 }
-.tracker-1 , .tracker-3 {
-    background-color: #1b6b37;
+/* .tracker-1 , .tracker-2, .tracker-3 , .tracker-4 {
+
+    
   
+} */
+.current {
+    background-color: #4b4b4b;
 }
 /* Buttons */
 .choice-btns {
@@ -253,10 +257,11 @@ button {
     height: 7%;
     text-align: center;
     justify-content: center;
-    background-color: var(--bg-green);
+
 }
 .appointment-tracker h1 {
     padding: 2px;
+    color: var(--bg-dark-gray);
 }
 .choice-btns {
     display: block;
@@ -271,8 +276,13 @@ button {
     color: var(--bg-dark-gray);
     border: 1px solid var(--font-black);
 }
+.package button {
+    justify-content: end;
+    text-align: center;
+    
+}
 .package h2 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 
 }
 .package h3 {
