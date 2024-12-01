@@ -3,7 +3,29 @@ const scBtns = document.querySelectorAll(".sc-btn");
 
 for(let i = 0; i < scBtnContent.length; i++){
     document.querySelectorAll('button')[i].addEventListener("click", function(){
-        console.log(this)
+        const currentBtn = this.innerHTML
+        
+        switch (currentBtn) {
+            case "Book Standard":
+                console.log(`you have selected ${currentBtn} `)
+                
+                break;
+                case "Book Deluxe":
+                    console.log(`you have selected ${currentBtn} `)
+                    
+                    break;
+                    case "Book Professional":
+                        console.log(`you have selected ${currentBtn} `)
+                        
+                        break;
+                        case "Book Elite":
+                            console.log(`you have selected ${currentBtn} `)
+                            
+                            break;
+        
+            default:
+                break;
+        }
     })
 }
 
