@@ -10,17 +10,27 @@ for(let i = 0; i < scBtnContent.length; i++){
             case "Book Standard":
                 let phaseOne = document.querySelector(".phase-1");
                 let phaseTwo = document.querySelector(".phase-2");
+                let phaseThree = document.querySelector(".phase-2");
+                let phaseFour = document.querySelector(".phase-2");
 
-                let getDate = document.querySelector("#date-field").value;
-                let getTime = document.querySelector("#time-field").value;
+                let trackerOne = document.querySelector(".tracker-1 ")
+                let trackerTwo = document.querySelector(".tracker-2 ")
+
+                let getDate = document.querySelector(".date-field").value;
+                let getTime = document.querySelector(".time-field").value;
+                let getName = document.querySelector(".name-field").value;
 
                 phaseOne.classList.add("hidden")
                 phaseTwo.classList.remove("hidden")
 
+                trackerOne.classList.remove("current")
+                trackerTwo.classList.add("current")
+
                 submitBtn.addEventListener("click", function (){
                     console.log(`you have selected ${currentBtn} `)
-                    console.log(getDate)
-                    console.log(getTime)
+                    // console.log(getDate)
+                    // console.log(getTime)
+                    console.log(getName.value)
                 })
                 
                 break;

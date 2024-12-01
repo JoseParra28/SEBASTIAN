@@ -36,8 +36,8 @@
                    <div class="info-form">
                        <div class="sc-content-div">  
                         <div class="tracker-divs">
-                        <div class="tracker-1 current">	&rang;</div>
-                        <div class="tracker-2">	&rang;</div>
+                        <div class="tracker-1 current">&rang;</div>
+                        <div class="tracker-2 ">	&rang;</div>
                         <div class="tracker-3">	&rang;</div>
                         <div class="tracker-4">&#8730;</div>
                     </div>
@@ -86,10 +86,10 @@
                             <fieldset>
                                 
                             <label for="date">Date</label>
-                            <input type="date" min="2024-12-04" max="2025-01-30" name="date" id="date-field" value="2024-12-04" required>
+                            <input type="date" min="2024-12-04" max="2025-01-30" name="date" class="date-field" id="date-field" value="2024-12-04" required>
 
                             <label for="time">Time</label>
-                            <input type="time" name="time" id="time-field" value="02:30" required>
+                            <input type="time" name="time" class="time-field" id="time-field" value="02:30" required>
 
                             <select id="reason" name="reason" required>
                                 <option value="" disabled selected>Select the reason for contact</option>
@@ -98,6 +98,7 @@
                                 <option value="help">Other query</option>
                             </select>
 
+                            <input type="text" class="name-field" id="name" name="name" required>
                             <input type="submit" value="Continue" id="submit-appo">
 
                             </fieldset>
