@@ -291,9 +291,22 @@ button {
     font-size: 0.9rem;
     color: #868585;
 }
+@keyframes show {
+    from {
+        transform: translateX(+100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
 .tracker-handeler {
     color: var(--bg-dark-gray);
+    animation: show 0.2s linear;
 }
+
 fieldset {
     display: block;
     background-color: var(--bg-dark-gray);
@@ -346,4 +359,8 @@ input[type="submit"] {
 }
 .confirmation h2, h3 {
     margin: 4px;
+}
+.thank-you h3 {
+    margin: 20px;
+    color: var(--bg-off-white);
 }
