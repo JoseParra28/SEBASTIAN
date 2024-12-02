@@ -27,27 +27,37 @@ for(let i = 0; i < scBtnContent.length; i++){
                 // phaseTwo.classList.add("hidden")
                 // phaseThree.classList.remove("hidden")
 
-                // trackerOne.classList.remove("current")
-                // trackerTwo.classList.add("current")
+               
 
                 submitBtn.addEventListener("click", function (){
 
+                    let custInfo = document.querySelector(".cust-info");
                     let getDate = document.querySelector(".date-field").value;
                     let getTime = document.querySelector(".time-field").value;
                     let getName = document.querySelector(".name-field").value;
 
-                    let nameDisplay = document.querySelector(".cust-name")
-                    let surnameDisplay = document.querySelector(".cust-name")
-                    // let nameDisplay = document.querySelector(".cust-name")
-                    // let nameDisplay = document.querySelector(".cust-name")
+                    let nameDisplay = document.querySelector(".name-field").value;
+                    let surnameDisplay = document.querySelector(".surname-field").value;
+                    let nameEmail = document.querySelector(".email-name").value;
+                    let returnDisplay = document.querySelector(".returning").value;
 
                     phaseTwo.classList.add("hidden")
                     phaseThree.classList.remove("hidden")
 
-                    console.log(`you have selected ${currentBtn} `)
-                    console.log(getDate)
-                    console.log(getTime)
-                    console.log(getName)
+                    trackerTwo.classList.remove("current")
+                    trackerThree.classList.add("current")
+                    
+                    custInfo.addEventListener("click", function(){
+                        console.log(`you have selected ${currentBtn} `)
+                        console.log(getDate)
+                        console.log(getTime)
+                        console.log(getName)
+                        console.log(getName)
+                        console.log(getName)
+                        console.log(getName)
+                    })
+
+                   
                 })
                 
         //         switch (currentBtn) {
