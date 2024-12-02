@@ -53,6 +53,10 @@ for(let i = 0; i < scBtnContent.length; i++){
                     trackerThree.classList.remove("current")
                     trackerFour.classList.add("current")
 
+                    document.querySelector(".cust-name").innerHTML = ` name ${nameDisplay} ${surnameDisplay}`
+                    document.querySelector(".cust-package").innerHTML = `${currentBtn}`
+                    document.querySelector(".cust-date").innerHTML = `For ${getDate}`
+                    document.querySelector(".cust-time").innerHTML = `At ${getTime}`
                         console.log(`you have selected ${currentBtn} `)
                         console.log(getDate)
                         console.log(getTime)
