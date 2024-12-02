@@ -11,6 +11,7 @@ for(let i = 0; i < scBtnContent.length; i++){
                 let phaseTwo = document.querySelector(".phase-2");
                 let phaseThree = document.querySelector(".phase-3");
                 let phaseFour = document.querySelector(".phase-4");
+                let phaseFive = document.querySelector(".phase-5");
 
 
                 let trackerOne = document.querySelector(".tracker-1 ")
@@ -42,28 +43,35 @@ for(let i = 0; i < scBtnContent.length; i++){
                     trackerThree.classList.add("current")
                     
                     custInfo.addEventListener("click", function(){
+                    let confirmation = document.querySelector(".confirm")
                     let nameDisplay = document.querySelector(".name-field").value;
                     let surnameDisplay = document.querySelector(".surname-field").value;
                     let emailDisplay = document.querySelector(".email-field").value;
                     let returnDisplay = document.querySelector(".returning").value;
 
+                    // if (!nameDisplay || !surnameDisplay){
+                    //     console.log("you need a name")
+                    // } else {
+
+                    // }
                     phaseThree.classList.add("hidden")
                     phaseFour.classList.remove("hidden")
 
                     trackerThree.classList.remove("current")
                     trackerFour.classList.add("current")
 
-                    document.querySelector(".cust-name").innerHTML = ` name ${nameDisplay} ${surnameDisplay}`
-                    document.querySelector(".cust-package").innerHTML = `${currentBtn}`
+                    document.querySelector(".cust-name").innerHTML = `Name: ${nameDisplay} ${surnameDisplay}`
+                    document.querySelector(".cust-package").innerHTML = `Package: ${currentBtn}`
                     document.querySelector(".cust-date").innerHTML = `For ${getDate}`
                     document.querySelector(".cust-time").innerHTML = `At ${getTime}`
-                        console.log(`you have selected ${currentBtn} `)
-                        console.log(getDate)
-                        console.log(getTime)
-                        console.log(nameDisplay)
-                        console.log(surnameDisplay)
-                        console.log(emailDisplay)
-                        console.log(returnDisplay[0])
+
+                        confirmation.addEventListener("click", function(){
+                            let success = document.querySelector(".current")
+                            phaseFour.classList.add("hidden")
+                            phaseFive.classList.remove("hidden")
+                            success.style.backgroundColor = "green"
+                        })
+                        
                     })
 
                    
