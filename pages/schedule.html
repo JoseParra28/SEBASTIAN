@@ -47,7 +47,7 @@
 
                          <!-- Phase 1 start -->
 
-                        <div class="tracker-handeler phase-1 hidden">
+                        <div class="tracker-handeler phase-1 ">
                         <div class="choice-btns ">
                             <div class="package">
                                 <div class="pack-info">
@@ -91,14 +91,14 @@
                             <label for="time">Time</label>
                             <input type="time" name="time" class="time-field" id="time-field" value="02:30" required>
 
-                            <select id="reason" name="reason" required>
+                            <!-- <select id="reason" name="reason" required>
                                 <option value="" disabled selected>Select the reason for contact</option>
                                 <option value="issue">Package query</option>
                                 <option value="collaboration">Collaboration Query</option>
                                 <option value="help">Other query</option>
-                            </select>
+                            </select> -->
 
-                            <input type="text" class="name-field" id="name" name="name" required>
+                            
                             <input type="submit" value="Continue" id="submit-appo">
 
                             </fieldset>
@@ -109,7 +109,8 @@
                          <div class="tracker-handeler hidden ">
                             <fieldset>
                             <label for="name">Name:</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" class="name-field" id="name" name="name" required>
+                            <!-- <input type="text" id="name" name="name" required> -->
 
                             <label for="name">Surname:</label>
                             <input type="text" id="surname" name="Surname" required>
@@ -131,7 +132,7 @@
                             <!-- Phase 3 end -->
 
                              <!-- Phase 4 start -->
-                         <div class="tracker-handeler  ">
+                         <div class="tracker-handeler  hidden">
                            <div class="confirmation">
                             <h2 class="cust-name"></h2>
                             <h2 class="cust-surname">Parra</h2>

@@ -6,8 +6,7 @@ for(let i = 0; i < scBtnContent.length; i++){
         const currentBtn = this.innerHTML
         let submitBtn = document.querySelector("#submit-appo")
         
-        switch (currentBtn) {
-            case "Book Standard":
+        
                 let phaseOne = document.querySelector(".phase-1");
                 let phaseTwo = document.querySelector(".phase-2");
                 let phaseThree = document.querySelector(".phase-2");
@@ -40,24 +39,27 @@ for(let i = 0; i < scBtnContent.length; i++){
                     console.log(getName)
                 })
                 
-                break;
+        //         switch (currentBtn) {
+        //             case "Book Standard":
 
-                case "Book Deluxe":
-                    console.log(`you have selected ${currentBtn} `)
+        //         break;
+
+        //         case "Book Deluxe":
+        //             console.log(`you have selected ${currentBtn} `)
                     
-                    break;
-                    case "Book Professional":
-                        console.log(`you have selected ${currentBtn} `)
+        //             break;
+        //             case "Book Professional":
+        //                 console.log(`you have selected ${currentBtn} `)
                         
-                        break;
-                        case "Book Elite":
-                            console.log(`you have selected ${currentBtn} `)
+        //                 break;
+        //                 case "Book Elite":
+        //                     console.log(`you have selected ${currentBtn} `)
                             
-                            break;
+        //                     break;
         
-            default:
-                break;
-        }
+        //     default:
+        //         break;
+        // }
     })
 }
 
