@@ -377,7 +377,7 @@ input[type="submit"] {
     color: var(--bg-off-white);
 }
 .confirmation h2, h3 {
-    margin: 4px;
+    margin: 15px;
 }
 .thank-you h3 {
     margin: 20px;

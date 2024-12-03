@@ -53,29 +53,30 @@ for(let i = 0; i < scBtnContent.length; i++){
 
                     document.querySelector(".cust-name").innerHTML = `Name: ${nameDisplay} ${surnameDisplay}`
                     document.querySelector(".cust-package").innerHTML = `Package: ${currentBtn}`
-                    document.querySelector(".cust-date").innerHTML = `For ${getDate}`
-                    document.querySelector(".cust-time").innerHTML = `At ${getTime}`
+                    document.querySelector(".cust-date").innerHTML = `For: ${getDate}`
+                    document.querySelector(".cust-time").innerHTML = `At: ${getTime}`
+                   
 
                         switch (currentBtn) {
                                 case "Standard":
-                                    console.log(`you have selected ${currentBtn} `)
+                                     document.querySelector(".package-price").innerHTML = `Total price: €180.00`
 
                             break;
 
                             case "Deluxe":
-                                console.log(`you have selected ${currentBtn} `)
+                                document.querySelector(".package-price").innerHTML = `Total price: €250.00`
                                 
                                 break;
                                 case "Professional":
-                                    console.log(`you have selected ${currentBtn} `)
+                                    document.querySelector(".package-price").innerHTML = `Total price: €300.00`
                                     
                                     break;
                                     case "Elite":
-                                        console.log(`you have selected ${currentBtn} `)
+                                        document.querySelector(".package-price").innerHTML = `Total price: €500.00`
                                         
                                         break;
                     
-                        default:
+                        default: document.querySelector(".package-price").innerHTML = `Total prie: €0.00`
                             break;
                     }
                     
