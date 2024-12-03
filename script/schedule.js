@@ -49,11 +49,12 @@ for(let i = 0; i < scBtnContent.length; i++){
                     let emailDisplay = document.querySelector(".email-field").value;
                     let returnDisplay = document.querySelector(".returning").value;
 
-                    // if (!nameDisplay || !surnameDisplay){
-                    //     console.log("you need a name")
-                    // } else {
+                    if (!nameDisplay || !surnameDisplay){
+                        console.log("you need a name")
+                        custInfo.style.display = "none"
+                    } else {
 
-                    // }
+                    }
                     phaseThree.classList.add("hidden")
                     phaseFour.classList.remove("hidden")
 
