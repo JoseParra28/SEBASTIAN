@@ -1,12 +1,13 @@
 const scBtnContent = ["Standard Package", "Deluxe Package", "Professional Package", "Elite Package" ];
 const scBtns = document.querySelectorAll(".sc-btn");
+let appointmentTracker = document.querySelector(".appointment-tracker-h1")
 
 for(let i = 0; i < scBtnContent.length; i++){
     document.querySelectorAll('button')[i].addEventListener("click", function(){
         const currentBtn = this.innerHTML
         let submitBtn = document.querySelector("#submit-appo")
         
-        
+                
                 let phaseOne = document.querySelector(".phase-1");
                 let phaseTwo = document.querySelector(".phase-2");
                 let phaseThree = document.querySelector(".phase-3");
@@ -25,6 +26,7 @@ for(let i = 0; i < scBtnContent.length; i++){
                 trackerOne.classList.remove("current")
                 trackerTwo.classList.add("current")
 
+                appointmentTracker.innerHTML = 'Choose when'
                 submitBtn.addEventListener("click", function (){
 
                     let custInfo = document.querySelector(".cust-info");
@@ -36,6 +38,8 @@ for(let i = 0; i < scBtnContent.length; i++){
 
                     trackerTwo.classList.remove("current")
                     trackerThree.classList.add("current")
+
+                    appointmentTracker.innerHTML = 'Your details'
                     
                     custInfo.addEventListener("click", function(){
                     let confirmation = document.querySelector(".confirm")
@@ -50,6 +54,8 @@ for(let i = 0; i < scBtnContent.length; i++){
 
                     trackerThree.classList.remove("current")
                     trackerFour.classList.add("current")
+
+                    appointmentTracker.innerHTML = 'Confirm selection'
 
                     document.querySelector(".cust-name").innerHTML = `Name: ${nameDisplay} ${surnameDisplay}`
                     document.querySelector(".cust-package").innerHTML = `Package: ${currentBtn}`
