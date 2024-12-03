@@ -195,8 +195,8 @@ font-size: 1.2rem;
 .container-2 {
     height: 150vh;
     width: 100%;
-    /* background-color: var(--bg-green); */
-    background: rgba(34, 69, 33, 0.8);
+    background-color: var(--bg-off-white);
+    /* background: rgba(34, 69, 33, 0.8); */
     position: relative;
 }
 .hero-div {
@@ -210,9 +210,10 @@ font-size: 1.2rem;
     position: fixed;
 }
 .hero-parallax {
-    font-size: 10rem;
+    font-size: 7rem;
     position: absolute;
     top: 15%;
+    letter-spacing: 10px;
 }
 /* after scroll trigger positirelative and width 80% */
 
@@ -247,7 +248,7 @@ font-size: 1.2rem;
 .service-container-1 {
     height: 138vh;
     width: 100%;
-    background-color: var(--bg-green);
+    background-color: var(--bg-off-white);
     position: relative;
     overflow: scroll;
     scrollbar-color: var(--bg-green);

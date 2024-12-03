@@ -82,11 +82,9 @@ for(let i = 0; i < scBtnContent.length; i++){
                                         
                                         break;
                     
-                        default: document.querySelector(".package-price").innerHTML = `Total prie: €0.00`
+                        default: document.querySelector(".package-price").innerHTML = `Total price: €0.00`
                             break;
                     }
-                    
-
                         confirmation.addEventListener("click", function(){
                             let success = document.querySelector(".current")
                             phaseFour.classList.add("hidden")
@@ -99,32 +97,9 @@ for(let i = 0; i < scBtnContent.length; i++){
                    
                 })
                 
-        //         switch (currentBtn) {
-        //             case "Book Standard":
-
-        //         break;
-
-        //         case "Book Deluxe":
-        //             console.log(`you have selected ${currentBtn} `)
-                    
-        //             break;
-        //             case "Book Professional":
-        //                 console.log(`you have selected ${currentBtn} `)
-                        
-        //                 break;
-        //                 case "Book Elite":
-        //                     console.log(`you have selected ${currentBtn} `)
-                            
-        //                     break;
-        
-        //     default:
-        //         break;
-        // }
     })
 }
 
-// const getDate = document.querySelector("#date-field").value;
-// const getTime = document.querySelector("#time-field").value;
 
 
     
