@@ -25,11 +25,6 @@ for(let i = 0; i < scBtnContent.length; i++){
                 trackerOne.classList.remove("current")
                 trackerTwo.classList.add("current")
 
-                // phaseTwo.classList.add("hidden")
-                // phaseThree.classList.remove("hidden")
-
-               
-
                 submitBtn.addEventListener("click", function (){
 
                     let custInfo = document.querySelector(".cust-info");
@@ -49,12 +44,7 @@ for(let i = 0; i < scBtnContent.length; i++){
                     let emailDisplay = document.querySelector(".email-field").value;
                     let returnDisplay = document.querySelector(".returning").value;
 
-                    if (!nameDisplay || !surnameDisplay){
-                        console.log("you need a name")
-                        custInfo.style.display = "none"
-                    } else {
-
-                    }
+                   
                     phaseThree.classList.add("hidden")
                     phaseFour.classList.remove("hidden")
 
@@ -65,6 +55,30 @@ for(let i = 0; i < scBtnContent.length; i++){
                     document.querySelector(".cust-package").innerHTML = `Package: ${currentBtn}`
                     document.querySelector(".cust-date").innerHTML = `For ${getDate}`
                     document.querySelector(".cust-time").innerHTML = `At ${getTime}`
+
+                        switch (currentBtn) {
+                                case "Standard":
+                                    console.log(`you have selected ${currentBtn} `)
+
+                            break;
+
+                            case "Deluxe":
+                                console.log(`you have selected ${currentBtn} `)
+                                
+                                break;
+                                case "Professional":
+                                    console.log(`you have selected ${currentBtn} `)
+                                    
+                                    break;
+                                    case "Elite":
+                                        console.log(`you have selected ${currentBtn} `)
+                                        
+                                        break;
+                    
+                        default:
+                            break;
+                    }
+                    
 
                         confirmation.addEventListener("click", function(){
                             let success = document.querySelector(".current")
