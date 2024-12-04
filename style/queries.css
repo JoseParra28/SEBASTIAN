@@ -20,6 +20,13 @@
     #show-menu {
         display: block;
     }
+    .fooret-div{
+        display: inline;
+    }
+    /* .input-div {
+        display: block;
+    } */
+
 }
 
 /* MinW */
@@ -28,4 +35,5 @@
     #show-menu {
         display: none;
     }
+   
 }
