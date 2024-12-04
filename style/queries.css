@@ -22,10 +22,14 @@
     }
     .fooret-div{
         display: inline;
+        position: absolute;
     }
-    /* .input-div {
-        display: block;
-    } */
+    .social-medi {
+        display: flex;
+    }
+    .gallery-section {
+        height: 269vh;
+    }
 
 }
 
