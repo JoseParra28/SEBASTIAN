@@ -304,7 +304,7 @@ footer{
     color: var(--font-white);
 }
 .footer__container {
-    background-color: #141414;
+    background-color: var(--bg-dark-gray);
     padding: 5rem 0;
     display: flex;
     flex-direction: column;
@@ -320,13 +320,8 @@ footer{
 }
 .footer__links h2{
     margin-bottom: 16px;
-    background-color: #ff8177;
-    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b1285b 100%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color:transparent;
-}
+color: var(--bg-off-white);
+} 
 
 .footer__link-wrap{
     display: flex;
@@ -342,7 +337,7 @@ footer{
     box-sizing: border-box;
 }
 .footer__links a {
-    color: #b721ff;
+    color: #acaaad;
     text-decoration: none;
     margin-bottom: 0.5rem;
     

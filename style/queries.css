@@ -20,13 +20,9 @@
     #show-menu {
         display: block;
     }
-    .fooret-div{
-        display: inline;
-        position: absolute;
-    }
-    .social-medi {
-        display: flex;
-    }
+   .footer__links{
+    display: grid;
+   }
     .gallery-section {
         height: 269vh;
     }
