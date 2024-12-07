@@ -23,6 +23,9 @@
    .footer__links{
     display: grid;
    }
+   .footer__link-wrap{
+    display: grid;
+   }
     .gallery-section {
         height: 269vh;
     }
