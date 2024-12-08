@@ -322,6 +322,13 @@ footer{
 .input-div label {
     margin: 10px;
 }
+.social-media li{
+    margin-bottom: 20px;
+}
+.social-media a{
+    color: #acaaad;
+    margin-bottom: 20px;
+}
 
 
 /* .footer__container {
