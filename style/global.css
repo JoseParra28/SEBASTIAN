@@ -313,6 +313,17 @@ footer{
 .footer__items {
     justify-content: center;
 }
+.footer__items h1, h2, p {
+    margin: 10px;
+}
+.input-div , label {
+    margin: 10px;
+}
+.input-div label {
+    margin: 10px;
+}
+
+
 /* .footer__container {
     background-color: var(--bg-dark-gray);
     padding: 5rem 0;
