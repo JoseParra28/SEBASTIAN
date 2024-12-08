@@ -303,7 +303,11 @@ footer{
     background-color: var(--bg-dark-gray);
     color: var(--font-white);
 }
-.footer__container {
+
+.footer__items {
+    display: flex;
+}
+/* .footer__container {
     background-color: var(--bg-dark-gray);
     padding: 5rem 0;
     display: flex;
@@ -341,4 +345,4 @@ color: var(--bg-off-white);
     text-decoration: none;
     margin-bottom: 0.5rem;
     
-}
+} */
