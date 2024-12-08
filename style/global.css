@@ -304,8 +304,14 @@ footer{
     color: var(--font-white);
 }
 
-.footer__items {
+.footer-container{
     display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.footer__items {
+    justify-content: center;
 }
 /* .footer__container {
     background-color: var(--bg-dark-gray);

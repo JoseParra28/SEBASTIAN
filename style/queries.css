@@ -20,12 +20,10 @@
     #show-menu {
         display: block;
     }
-   .footer__links{
-    display: grid;
-   }
-   .footer__link-wrap{
-    display: grid;
-   }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+    }
     .gallery-section {
         height: 269vh;
     }
