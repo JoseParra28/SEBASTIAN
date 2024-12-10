@@ -8,16 +8,18 @@
     }
     .service-container-1 {
         background-color: red;
+        
     }
     .service-container-2 {
-        background-color: gray;
-        height: 10vh;
+        background-color: var(--bg-dark-gray);
+        height: 25vh;
     }
     .service-img {
         display: block;
         width: 60%;
         position: relative;
-        z-index: 3;
+        z-index: 2;
+        margin: 70px;
     }
 
     nav li{
