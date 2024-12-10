@@ -3,17 +3,9 @@
 /* Mobile and tablet */
 /* MaxW */
 @media (max-width: 900px){
-    .popup-img img {
-        width: 80%;
-        height: 50%;
+    .main-div {
+        display: grid;
     }
-}
-@media (max-width: 900px){
-    .gallery  {
-        column-count: 2;
-    }
-}
-@media (max-width: 900px){
     nav li{
         display: none;
     }
@@ -30,12 +22,18 @@
     .footer__items {
         margin: 4%;
     }
-    
     .gallery-section {
         height: 269vh;
     }
-
+    .gallery  {
+        column-count: 2;
+    }
+    .popup-img img {
+        width: 80%;
+        height: 50%;
+    }
 }
+
 
 /* MinW */
 
