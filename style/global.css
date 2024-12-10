@@ -298,7 +298,7 @@ font-size: 1.2rem;
 
 footer{
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     position: absolute;
     background-color: var(--bg-dark-gray);
     color: var(--font-white);
@@ -310,8 +310,12 @@ footer{
     align-items: center;
 
 }
+.footer-wrap {
+    margin: 3%;
+}
 .footer__items {
     justify-content: center;
+
 }
 .footer__items h1, h2, p {
     margin: 10px;
@@ -328,6 +332,13 @@ footer{
 .social-media a{
     color: #acaaad;
     margin-bottom: 20px;
+}
+.footer__items ul {
+    display: flex;
+    gap: 20px;
+}
+.social-media{
+    margin-top:15%;
 }
 
 

@@ -20,6 +20,9 @@
     #show-menu {
         display: block;
     }
+    footer {
+        height: 50vh;
+    }
     .footer-container{
         display: flex;
         flex-direction: column;
@@ -30,9 +33,10 @@
     .social-media  {
         display: flex;
         justify-content: space-around;
+        margin-top:0%;
+        
     }
     .social-media ul  {
-
         justify-content: space-around;
     }
     .gallery-section {
