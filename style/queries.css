@@ -3,7 +3,7 @@
 /* Mobile and tablet */
 /* MaxW */
 @media (max-width: 900px){
-  
+  /* Hero section */
     .mobile-container {
         position:absolute;
         text-align: center;
@@ -28,6 +28,7 @@
     .btn {
         margin-left: 26%;
     }
+    /* Container */
     .services p {
         font-size: 0.9rem;
     }
@@ -56,13 +57,14 @@
         margin: 70px;
         margin-left: 23%;
     }
-
+    /* Navbar */
     nav li{
         display: none;
     }
     #show-menu {
         display: block;
     }
+    /* Footer */
     footer {
         height: 50vh;
     }
@@ -73,6 +75,7 @@
     .footer__items {
         margin: 4%;
     }
+    /* Galery */
     .gallery-section {
         height: 269vh;
     }
@@ -82,6 +85,19 @@
     .popup-img img {
         width: 80%;
         height: 50%;
+    }
+    /* Info */
+    .info-section{
+        height: 130vh;
+    }
+    .info-content p {
+        padding-bottom: 20px;
+    }
+    .main-info-div{
+        display: grid; 
+    }
+    .info-content form {
+        margin: 0%;
     }
 }
 

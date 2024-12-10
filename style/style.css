@@ -147,7 +147,7 @@ form {
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 input[type="text"],
@@ -341,7 +341,7 @@ fieldset legend {
 }
 label {
     display: block;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 input[type="date"],
