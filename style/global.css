@@ -55,7 +55,6 @@ button a {
     line-height: 40px;
     font-size: 18px;
     text-decoration: none;
-    border: 2px solid var(--bg-dark-gray);
     text-align: center;
     position: relative;
     transition: all .35s;
@@ -180,46 +179,9 @@ font-size: 1.2rem;
     display: none;
 }
 
-
-/* ---  MAIN CONTAINERS  --- */
-.main-div {
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-.container-1 {
-    height: 150vh;
-    width: 100%;
-    background-color: var(--bg-off-white);
-    position: relative;
-}
-.container-2 {
-    height: 150vh;
-    width: 100%;
-    background-color: var(--bg-off-white);
-    /* background: rgba(161, 161, 161, 0.8); */
-    position: relative;
-}
-.hero-div {
-    display: flex;
-    justify-content: center;
-    margin: 15%;
-}
-.hero-img {
-    width: 25%;
-    background-repeat: no-repeat;
-    position: fixed;
-}
-.hero-parallax {
-    font-size: 7rem;
-    position: absolute;
-    top: 15%;
-    letter-spacing: 10px;
-}
 /* after scroll trigger positirelative and width 80% */
 
 .content {
-
     margin: 5%;
     color: var(--font-black);
 }
@@ -230,13 +192,18 @@ font-size: 1.2rem;
 .content h2 {
     margin: 5%;
     font-size: 2rem;
+    margin-bottom: 30%;
 }
 .content p {
+    margin-top: 15%;
     margin: 15%;
     font-size: 1.5rem;
 }
 .content a {
     text-decoration: none;
+}
+.content button {
+    margin-top: 20%;
 }
 /* --- SERVICE --- */
 .main-div-2 {
