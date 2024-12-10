@@ -3,9 +3,23 @@
 /* Mobile and tablet */
 /* MaxW */
 @media (max-width: 900px){
-    .main-div {
+    .main-div-2 {
         display: grid;
     }
+    .service-container-1 {
+        background-color: red;
+    }
+    .service-container-2 {
+        background-color: gray;
+        height: 10vh;
+    }
+    .service-img {
+        display: block;
+        width: 60%;
+        position: relative;
+        z-index: 3;
+    }
+
     nav li{
         display: none;
     }
