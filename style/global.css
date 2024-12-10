@@ -13,6 +13,7 @@
     scroll-behavior: smooth;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-variant-caps: petite-caps;
+   
 }
 li {
     text-decoration: none;
@@ -24,6 +25,7 @@ a{
 .hero-section {
     height: 138vh;
     position: relative;
+    background-color: var(--bg-off-white);
 }
 .service-section {
     height: 277vh;
@@ -34,7 +36,7 @@ a{
     position: relative;
 }
 .info-section {
-    height: 100vh;
+    height: 110vh;
     position: relative;
     background-color: var(--bg-dark-gray);
     color: var(--font-white);
@@ -85,6 +87,9 @@ button a {
   
   button a:hover:after{
     width: 100%;
+  }
+  .space:hover {
+    letter-spacing: 2px;
   }
 
 /* ---  NAVBAR  --- */
@@ -195,9 +200,9 @@ font-size: 1.2rem;
     margin-bottom: 30%;
 }
 .content p {
-    margin-top: 15%;
+    padding-top: 40%;
     margin: 15%;
-    font-size: 1.5rem;
+    font-size: 5rem;
 }
 .content a {
     text-decoration: none;
@@ -257,9 +262,6 @@ font-size: 1.2rem;
     text-decoration-color: var(--bg-dark-gray);
     color: var(--font-black);
     
-}
-.services a:hover {
-    letter-spacing: 0.2rem; 
 }
 
 /*  ---- FOOTER ----- */
