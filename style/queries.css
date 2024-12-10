@@ -99,6 +99,10 @@
     .info-content form {
         margin: 0%;
     }
+    /* Schedule */
+    .hide {
+        display: none;
+    }
 }
 
 
