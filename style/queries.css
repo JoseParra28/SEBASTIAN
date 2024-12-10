@@ -3,17 +3,33 @@
 /* Mobile and tablet */
 /* MaxW */
 @media (max-width: 900px){
-    /* .hero-section {
-        height: 100vh;
-    } */
-    
+  
+    .mobile-container {
+        position:absolute;
+        text-align: center;
+        
+    }
+    .mobile-container-img {
+        background-color: var(--bg-dark-gray);
+
+    }
+    .mobile-container-img img{
+        width: 50%;
+        margin-left: 25%;
+        
+    }
     .main-div-2 {
         display: grid;
     }
     .service-container-1 {
         margin-top: 40% ;
         height: 60vh;
-        
+    }
+    .btn {
+        margin-left: 26%;
+    }
+    .services p {
+        font-size: 0.9rem;
     }
     .content, .content h1, .content h2{
         margin: 5%;
@@ -38,6 +54,7 @@
         position: relative;
         z-index: 2;
         margin: 70px;
+        margin-left: 23%;
     }
 
     nav li{
@@ -73,6 +90,9 @@
 
 @media (min-width: 900px){
     #show-menu {
+        display: none;
+    }
+    .mobile-container,  .mobile-container-img {
         display: none;
     }
    
