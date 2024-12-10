@@ -30,15 +30,7 @@
     .footer__items {
         margin: 4%;
     }
-    .social-media  {
-        display: flex;
-        justify-content: space-around;
-        margin-top:0%;
-        
-    }
-    .social-media ul  {
-        justify-content: space-around;
-    }
+    
     .gallery-section {
         height: 269vh;
     }
