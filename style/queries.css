@@ -103,6 +103,23 @@
     .hide {
         display: none;
     }
+    /* Services */
+    .main-service-div {
+        display: grid;
+    }
+    .service-content h3 {
+        font-size: 1rem;
+    }
+    .service-content p {
+        font-size: 0.9rem;
+    }
+    .service-content li {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    .service-page-img img {
+        width: 60%;
+    }
 }
 
 
