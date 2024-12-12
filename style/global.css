@@ -210,6 +210,10 @@ font-size: 1.2rem;
 .content button {
     margin-top: 20%;
 }
+#message {
+    padding-left: 40%;
+    text-align: end;
+}
 /* --- SERVICE --- */
 .main-div-2 {
     display: flex;
