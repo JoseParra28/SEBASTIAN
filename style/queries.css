@@ -104,7 +104,13 @@
     .btn {
         font-size: 0.7rem;
     }
-   
+    
+    .info-content h1 {
+        font-size: 1.2rem;
+    }
+    .info-content p {
+        font-size: 0.9rem;
+    }
     /* service */
     .service-section {
         height: 255vh;
@@ -124,7 +130,9 @@
     }
     .service-page-img img {
         width: 60%;
+        margin-top: 0%;
     }
+   
 }
 
 

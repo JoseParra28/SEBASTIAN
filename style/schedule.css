@@ -41,12 +41,7 @@
         width: 100px;
     height: 30px;
     }
-    .package h2 {
-        font-size: 1rem;
-    }
-    .package h3 {
-        font-size: 0.5rem;
-    }
+    
 }
 .sc-content-div {
     width: 100%;
@@ -173,7 +168,7 @@ button {
     text-align: start;
 }
 .package h2 {
-    font-size: 1.4rem;
+    font-size: 1rem;
     color: #868585;;
 
 }
