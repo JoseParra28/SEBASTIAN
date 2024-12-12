@@ -26,10 +26,17 @@
 }
 .schedule-div {
     position: absolute;
-    background-color: red;
     width: 40%;
     top: 20%;
     left: 2%;
+}
+@media (max-width: 900px){
+    .schedule-div {
+        position: absolute;
+        width: 96%;
+        top: 27%;
+        left: 2%;
+    }
 }
 .sc-content-div {
     width: 100%;
@@ -99,11 +106,11 @@ button {
     transition: all .35s;
   }
   
-  button{
+  /* button{
     position: relative;
     z-index: 2;
     color: var(--font-black);
-  }
+  } */
   
   button :after{
     position: absolute;
@@ -146,6 +153,7 @@ button {
 }
 .package h2 {
     font-size: 1.4rem;
+    color: #868585;;
 
 }
 .package h3 {
