@@ -66,6 +66,117 @@
              <div class="tracker-3">	&rang;</div>
              <div class="tracker-4">&#8730;</div>
          </div>
+             <div class="appointment-tracker">
+                 <h1 class="appointment-tracker-h1 ">Choose Package</h1>
+             </div>
+
+              <!-- Phase 1 start -->
+
+              <div class="tracker-handeler phase-1 ">
+                <div class="choice-btns ">
+                    <div class="package">
+                        <div class="pack-info">
+                            <!-- Needs styling -->
+                        <h2>Standard package</h2>
+                        <h3>30 minutes @ €180.00</h3>
+                         </div>
+                         <button class="btn sc-btn">Standard</button>
+                    </div>
+                    <div class="package">
+                        <div class="pack-info">
+                        <h2>Deluxe package</h2>
+                        <h3>2 hour section @ €250.00</h3>
+                         </div>
+                         <button class="btn sc-btn">Deluxe</button>
+                    </div>
+                    <div class="package">
+                        <div class="pack-info">
+                        <h2>Pro package</h2>
+                        <h3>3 hour section @ €300.00</h3>
+                         </div>
+                         <button class="btn sc-btn">Professional</button>
+                    </div>
+                    <div class="package">
+                        <div class="pack-info">
+                        <h2>Elite package</h2>
+                        <h3>5 hour section @ €500.00</h3>
+                         </div>
+                         <button class="btn sc-btn">Elite</button>
+                    </div>
+                </div>
+               </div>
+               <!-- Phase 1 end -->
+
+                 <!-- Phase 2 start -->
+                         <div class="tracker-handeler phase-2 hidden">
+                            <!-- needs better styling -->
+                            <fieldset>
+                                
+                            <label for="date">Date</label>
+                            <input type="date" min="2024-12-04" max="2025-01-30" name="date" class="date-field" id="date-field" value="2024-12-04" required>
+
+                            <label for="time">Time</label>
+                            <input type="time" name="time" class="time-field" id="time-field" value="02:30" required>
+
+                            <input type="submit" value="Continue" id="submit-appo">
+
+                            </fieldset>
+                            </div>
+                            <!-- Phase 2 end -->
+
+                            <!-- Phase 3 start -->
+                         <div class="tracker-handeler phase-3 hidden">
+                            <fieldset>
+                            <label for="name">Name:</label>
+                            <input type="text" class="name-field" id="name" name="name" required>
+                            <!-- <input type="text" id="name" name="name" required> -->
+
+                            <label for="name">Surname:</label>
+                            <input type="text" class="surname-field" id="surname" name="Surname" required >
+                
+                            <label for="email">Email:</label>
+                            <input type="email" class="email-field" id="email" name="email" required>
+                            
+
+                            <select id="reason" name="reason" class="returning" required>
+                                <option value="" disabled selected>Returning customer</option>
+                                <option value="issue">Yes</option>
+                                <option value="issue">No</option>
+                                
+                            </select>
+
+                            <input type="submit" value="Continue" class="cust-info" id="submit-appo">
+                            </fieldset> 
+                        
+                            </div>
+                            <!-- Phase 3 end -->
+
+                            <!-- Phase 4 start -->
+                         <div class="tracker-handeler phase-4  hidden">
+                            <div class="confirmation">
+                             <h2 class="cust-name"></h2>
+                             <h2 class="cust-surname"></h2>
+                             <h3 class="cust-package"></h3>
+                             <h3 class="package-price"></h3>
+                             <h3 class="cust-date"></h3>
+                             <h3 class="cust-time"></h3>
+                            </div>
+                            <input type="submit" value="Confirm" class="confirm" id="submit-appo">
+                          </div>
+                             <!-- Phase 4 end -->
+ 
+                              <!-- Phase 5 start -->
+                          <div class="tracker-handeler phase-5 hidden ">
+                             <div class="thank-you">
+                              <h3>Thank you for you time. This is a fictional website part of my WebDev journey. None of these packages are real. <br>
+                                 <br>
+                                  Your details won't be saved and will be erased once you refresh the page.
+                               </h3>
+                          </div>
+                          
+                              </div>
+                             </div>
+                              <!-- Phase 5 end -->
         </div>
    
            
