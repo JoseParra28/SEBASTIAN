@@ -100,14 +100,11 @@
         margin: 0%;
     }
     /* Schedule */
-  
-
-    .schedule-div {
-        position: absolute;
-        width: 96%;
-        top: 28%;
-        left: 2%;
+   
+    .btn {
+        font-size: 0.7rem;
     }
+   
     /* service */
     .service-section {
         height: 255vh;
