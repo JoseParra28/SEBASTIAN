@@ -104,6 +104,11 @@
         display: none;
     }
     /* Services */
+    /* .schedule-div {
+        position: absolute;
+        background-color: rebeccapurple;
+        width: 100%;
+    } */
     .service-section {
         height: 255vh;
     }

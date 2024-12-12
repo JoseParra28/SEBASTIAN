@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SEBASTIAN">
+    <meta name="keywords" content="SEBASTIAN-PHOTOGRAPHY">
+    <title>Sebastian</title>
+    <link rel="stylesheet" href="/style/global.css">
+    <!-- <link rel="stylesheet" href="/style/style.css"> -->
+    <link rel="stylesheet" href="/style/queries.css">
+    <link rel="stylesheet" href="/style/schedule.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    <head>
+        <nav>
+            <div class="logo-div"><a href="/index.html">SEBASTIAN</a></div>
+            <div class="nav-items">
+                <ul>
+                    <li><a href="/pages/info.html">Info</a></li>
+                    <li><a href="/pages/services.html">Services</a></li>
+                    <li><a href="/pages/gallery.html">Gallery</a></li>
+                    <li><a id="current"  href="/pages/schedule.html">Schedule a shoot</a></li>
+                    <div class="drop" id="show-menu">&equiv;</div>
+                </ul>
+            </div>
+        </nav>
+        <div class="hidden hide-menu" >
+            <div class="close-div">
+                <div class="drop-logo"><a href="/index.html">SEBASTIAN</a></div>
+                <li class="close-menu" ><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#333"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+               </div>
+           
+           <div class="drop-nav-links">
+               <ul>
+                <li><a href="/pages/info.html">Info</a></li>
+                <li><a href="/pages/services.html">Services</a></li>
+                <li><a href="/pages/gallery.html">Gallery</a></li>
+                <li><a href="/pages/schedule.html">Schedule a shoot</a></li>
+                
+               </ul>
+           </div>
+        </div>
+    </head>
+    
+   
+    <section class=" sc-section">
+        <div class="main-info-div">
+           <div class="info-content">
+            
+               <h1>SCHEDULE YOUR SHOOT</h1>
+               <p>View availability and book a session. It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.</p>
+                   <div class="schedule-div">
+                   <div class="sc-form">
+                       <div class="sc-content-div">  
+                        <div class="tracker-divs">
+                        <div class="tracker-1 current">&rang;</div>
+                        <div class="tracker-2 ">	&rang;</div>
+                        <div class="tracker-3">	&rang;</div>
+                        <div class="tracker-4">&#8730;</div>
+                    </div>
+                        <div class="appointment-tracker">
+                            <h1 class="appointment-tracker-h1 ">Choose Package</h1>
+                        </div>
+
+                         <!-- Phase 1 start -->
+
+                        <div class="tracker-handeler phase-1 ">
+                        <div class="choice-btns ">
+                            <div class="package">
+                                <div class="pack-info">
+                                <h2>Standard package</h2>
+                                <h3>30 minutes @ €180.00</h3>
+                                 </div>
+                                 <button class="btn sc-btn">Standard</button>
+                            </div>
+                            <div class="package">
+                                <div class="pack-info">
+                                <h2>Deluxe package</h2>
+                                <h3>2 hour section @ €250.00</h3>
+                                 </div>
+                                 <button class="btn sc-btn">Deluxe</button>
+                            </div>
+                            <div class="package">
+                                <div class="pack-info">
+                                <h2>Pro package</h2>
+                                <h3>3 hour section @ €300.00</h3>
+                                 </div>
+                                 <button class="btn sc-btn">Professional</button>
+                            </div>
+                            <div class="package">
+                                <div class="pack-info">
+                                <h2>Elite package</h2>
+                                <h3>5 hour section @ €500.00</h3>
+                                 </div>
+                                 <button class="btn sc-btn">Elite</button>
+                            </div>
+                        </div>
+                       </div>
+                       <!-- Phase 1 end -->
+                       
+                         <!-- Phase 2 start -->
+                         <div class="tracker-handeler phase-2 hidden">
+                            <fieldset>
+                                
+                            <label for="date">Date</label>
+                            <input type="date" min="2024-12-04" max="2025-01-30" name="date" class="date-field" id="date-field" value="2024-12-04" required>
+
+                            <label for="time">Time</label>
+                            <input type="time" name="time" class="time-field" id="time-field" value="02:30" required>
+
+                            <input type="submit" value="Continue" id="submit-appo">
+
+                            </fieldset>
+                            </div>
+                            <!-- Phase 2 end -->
+
+                            <!-- Phase 3 start -->
+                         <div class="tracker-handeler phase-3 hidden">
+                            <fieldset>
+                            <label for="name">Name:</label>
+                            <input type="text" class="name-field" id="name" name="name" required>
+                            <!-- <input type="text" id="name" name="name" required> -->
+
+                            <label for="name">Surname:</label>
+                            <input type="text" class="surname-field" id="surname" name="Surname" required >
+                
+                            <label for="email">Email:</label>
+                            <input type="email" class="email-field" id="email" name="email" required>
+                            
+
+                            <select id="reason" name="reason" class="returning" required>
+                                <option value="" disabled selected>Returning customer</option>
+                                <option value="issue">Yes</option>
+                                <option value="issue">No</option>
+                                
+                            </select>
+
+                            <input type="submit" value="Continue" class="cust-info" id="submit-appo">
+                            </fieldset> 
+                        
+                            </div>
+                            <!-- Phase 3 end -->
+
+                             <!-- Phase 4 start -->
+                         <div class="tracker-handeler phase-4  hidden">
+                           <div class="confirmation">
+                            <h2 class="cust-name"></h2>
+                            <h2 class="cust-surname"></h2>
+                            <h3 class="cust-package"></h3>
+                            <h3 class="package-price"></h3>
+                            <h3 class="cust-date"></h3>
+                            <h3 class="cust-time"></h3>
+                           </div>
+                           <input type="submit" value="Confirm" class="confirm" id="submit-appo">
+                         </div>
+                            <!-- Phase 4 end -->
+
+                             <!-- Phase 4 start -->
+                         <div class="tracker-handeler phase-5 hidden ">
+                            <div class="thank-you">
+                             <h3>Thank you for you time. This is a fictional website part of my WebDev journey. None of these packages are real. <br>
+                                <br>
+                                 Your details won't be saved and will be erased once you refresh the page.
+                              </h3>
+                         </div>
+                         
+                             </div>
+                            </div>
+                             <!-- Phase 4 end -->
+
+                        </div>
+                   </div>
+           </div>
+
+           <div class="info-img">
+               <img src="/assets/image-asset (18).jpeg" alt="">
+           </div>
+        </div>
+       </section>
+
+       <footer>
+        <div class="footer-container">
+            <div class="footer-wrap">
+                <div class="footer__items subscribe">
+                    <h1>Subscribe</h1>
+                    <p>Sign up with your email address to receive news and updates.</p>
+                    <div class="input-div nav-items">
+                        <label for="subscribe">Email adress</label>
+                    <input id="subscribe" type="text" name="subscribe"  required>
+                    <li><a href="#" class="signup">Sign up</a></li>
+                    </div>
+                    <p>We respect your privacy.</p>
+                </div>
+            </div>
+            <div class="footer-wrap">
+                <div class="footer__items nav-items">
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/pages/info.html">Info</a></li>
+                        <li><a href="/pages/services.html">Services</a></li>
+                        <li><a href="/pages/gallery.html">Gallery</a></li>
+                        <li><a href="/pages/schedule.html">Schedule a shoot</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-wrap">
+                <div class="footer__items">
+                    <ul class="social-media">
+                        <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"
+                    id="twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"
+                    id="youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"
+                    id="instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"
+                    id="facebook"></i></a></li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script/script.js"></script>
+    <script src="/script/schedule.js"></script>
+</body>
+</html>

@@ -1,8 +1,4 @@
-.schedule-div {
 
-    background-color: red;
-    position: absolute;
-}
 .main-info-div{
     display: flex;
     position: relative;
@@ -28,3 +24,24 @@
 .info-img img {
     width: 70%;
 }
+.schedule-div {
+    position: absolute;
+    background-color: red;
+    width: 30%;
+}
+form {
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: var(--bg-dark-gray);
+    /* max-width: 400px; */
+    /* width: 100%; */
+    overflow: hidden;
+    border-radius: 0;
+    border: 1px solid var(--font-black);
+}
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+

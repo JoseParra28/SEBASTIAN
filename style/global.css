@@ -42,7 +42,7 @@ a{
     color: var(--font-white);
 }
 .sc-section {
-    height: 100vh;
+    height: 150vh;
     position: relative;
     background-color: var(--bg-dark-gray);
     color: var(--font-white);
