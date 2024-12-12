@@ -3,3 +3,28 @@
     background-color: red;
     position: absolute;
 }
+.main-info-div{
+    display: flex;
+    position: relative;
+}
+.info-content {
+    display: block;
+    padding: 3%;
+}
+.info-content p {
+    margin: 3%;
+}
+.info-content h1 {
+    margin: 3%;
+}
+.info-content form {
+    margin: 3%;
+}
+.info-img {
+    margin-top: 3%;
+    justify-content: center;
+    text-align: center;
+}
+.info-img img {
+    width: 70%;
+}
