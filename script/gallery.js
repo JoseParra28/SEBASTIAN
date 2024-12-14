@@ -10,6 +10,7 @@ const popUp = document.querySelector(".popup-img")
 for (i = 0; i < galleryImg.length; i++){
     galleryImg[i].addEventListener("click", function(){
         let changeImg = this.alt
+        console.log("hwats")
 
         let image = document.createElement('img')
         const addimage  = document.getElementsByClassName('popup-img')

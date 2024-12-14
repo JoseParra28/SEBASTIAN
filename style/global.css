@@ -154,11 +154,11 @@ a:hover {
 }
 .dropdown {
     width: 100%;
-    height: 45vh;
+    height: 100vh;
     color: black;
     z-index: 3;
-    top: 1%;
-    position: absolute;
+    top: 0%;
+    position: fixed;
     backdrop-filter: blur(6px);
     background: rgba(74, 76, 77, 0.378);
     animation: show 0.2s linear;
