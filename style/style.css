@@ -41,7 +41,6 @@
     width: 30%;
     margin: 5%;
     margin-right: 15%;
-    margin-top: 15%;
 }
 /* -- GALLERY -- */
 
@@ -92,7 +91,8 @@
     color: var(--font-white);
     cursor: pointer;
     flex-direction: end;
-    margin: 3%;
+    margin-right: 5%;
+  
 }
 .popup-img img {
     position: absolute;
@@ -106,7 +106,6 @@
 }
 
 /* --- INFO --- */
-
 
 .main-info-div{
     display: flex;
